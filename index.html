@@ -1,0 +1,688 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Step Towards Heaven - Experience the Paradise of Earth. Premium Kashmir Tour & Travel Packages">
+    <meta name="keywords" content="Kashmir Tours, Travel Packages, Gulmarg, Dal Lake, Pahalgam">
+    <title>Step Towards Heaven | Kashmir Tour & Travel</title>
+
+    <!-- Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&family=Playfair+Display:wght@700&display=swap"
+        rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ============ PRELOADER ============ -->
+    <div id="preloader">
+        <div class="loader-content">
+            <i class="fas fa-mountain fa-3x text-white mb-3 fa-flip"></i>
+            <h4 class="text-white">Step Towards Heaven</h4>
+        </div>
+    </div>
+
+    <!-- ============ NAVBAR ============ -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top shadow-sm">
+        <div class="container">
+            <a class="navbar-brand fw-bold d-flex align-items-center gap-2" href="index.html">
+                <img src="images/nlogo.png" alt="Step Towards Heaven Logo" height="45">
+                <span>Step Towards Heaven</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-center">
+                    <li class="nav-item"><a class="nav-link px-3 smooth-scroll" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link px-3 smooth-scroll" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link px-3 smooth-scroll" href="#sightseeing">Sightseeing</a></li>
+                    <li class="nav-item"><a class="nav-link px-3 smooth-scroll" href="#packages">Packages</a></li>
+                    <li class="nav-item"><a class="nav-link px-3 smooth-scroll" href="#gallery">Gallery</a></li>
+                    <li class="nav-item"><a class="nav-link px-3 smooth-scroll" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ============ HERO SECTION ============ -->
+    <section id="home" class="hero-section">
+        <div class="hero-overlay">
+            <img src="images/02.png" alt="Kashmir Paradise">
+        </div>
+        <div class="hero-content text-center text-white">
+            <h1 class="display-3 fw-bold mb-3 animate-title">Step Towards Heaven</h1>
+            <p class="lead mb-5">Experience the Paradise of Earth – Kashmir</p>
+            <a href="#packages" class="btn btn-primary btn-lg px-5 smooth-scroll">View Packages</a>
+        </div>
+    </section>
+
+    <!-- ============ ABOUT KASHMIR ============ -->
+    <section id="about" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5 fw-bold section-title">Why Kashmir?</h2>
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-4">
+                    <img src="images/01.png" class="img-fluid rounded shadow" alt="Kashmir Valley">
+                </div>
+                <div class="col-lg-6">
+                    <p class="fs-5 mb-4">
+                        Kashmir, the crown jewel of India, is a destination of unparalleled beauty. With snow-capped
+                        mountains, pristine lakes, lush valleys, and warm hospitality, Kashmir offers a perfect escape
+                        from the hustle and bustle of city life.
+                    </p>
+                    <div class="row g-4">
+                        <div class="col-sm-6">
+                            <div class="feature-box text-center">
+                                <i class="fas fa-snowflake fa-2x text-primary mb-3"></i>
+                                <h5>Snow-Capped Peaks</h5>
+                                <p class="small">Majestic mountains covered in pristine snow</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="feature-box text-center">
+                                <i class="fas fa-water fa-2x text-info mb-3"></i>
+                                <h5>Pristine Lakes</h5>
+                                <p class="small">Crystal clear waters reflecting the sky</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="feature-box text-center">
+                                <i class="fas fa-leaf fa-2x text-success mb-3"></i>
+                                <h5>Lush Valleys</h5>
+                                <p class="small">Green meadows and blooming flowers</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="feature-box text-center">
+                                <i class="fas fa-mountain fa-2x text-danger mb-3"></i>
+                                <h5>Adventure Trails</h5>
+                                <p class="small">Perfect for trekking and exploration</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- ============ SIGHTSEEING SLIDER ============ -->
+    <section id="sightseeing" class="py-5 bg-white">
+        <div class="container">
+            <h2 class="text-center mb-5 fw-bold section-title">Popular Destinations</h2>
+            <div id="sightseeingCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel"
+                data-bs-interval="5000">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#sightseeingCarousel" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#sightseeingCarousel" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#sightseeingCarousel" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#sightseeingCarousel" data-bs-slide-to="3"
+                        aria-label="Slide 4"></button>
+                    <button type="button" data-bs-target="#sightseeingCarousel" data-bs-slide-to="4"
+                        aria-label="Slide 5"></button>
+                    <button type="button" data-bs-target="#sightseeingCarousel" data-bs-slide-to="5"
+                        aria-label="Slide 6"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="images/04.png" class="d-block w-100 carousel-img" alt="Gulmarg">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/03.png" class="d-block w-100 carousel-img" alt="Dal Lake">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/05.png" class="d-block w-100 carousel-img" alt="Pahalgam">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/06.png" class="d-block w-100 carousel-img" alt="Sonmarg">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/07.png" class="d-block w-100 carousel-img" alt="Betaab Valley">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/08.png" class="d-block w-100 carousel-img" alt="Mughal Gardens">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#sightseeingCarousel"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#sightseeingCarousel"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ TOUR PACKAGES ============ -->
+    <section id="packages" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5 fw-bold section-title">Our Tour Packages</h2>
+            <div class="row g-4">
+                <!-- Silver Package -->
+                <div class="col-lg-4">
+                    <div class="package-card h-100">
+                        <div class="package-badge">Silver</div>
+                        <h4 class="mb-3">Silver Package</h4>
+                        <div class="price-tag mb-4">₹ 15,999</div>
+                        <ul class="package-features mb-4">
+                            <li><i class="fas fa-check text-success"></i> 3 Nights / 4 Days</li>
+                            <li><i class="fas fa-check text-success"></i> Budget Hotel</li>
+                            <li><i class="fas fa-check text-success"></i> Shared Cab Service</li>
+                            <li><i class="fas fa-check text-success"></i> Major Sightseeing</li>
+                            <li><i class="fas fa-check text-success"></i> Breakfast Included</li>
+                        </ul>
+                        <button class="btn btn-outline-primary w-100 mb-2 whatsapp-btn" data-package="Silver Package">
+                            <i class="fab fa-whatsapp"></i> WhatsApp Enquiry
+                        </button>
+                        <button class="btn btn-primary w-100 book-now-btn" data-package="Silver Package">Book
+                            Now</button>
+                    </div>
+                </div>
+
+                <!-- Gold Package -->
+                <div class="col-lg-4">
+                    <div class="package-card h-100 popular-package">
+                        <div class="package-badge bg-warning">Most Popular</div>
+                        <h4 class="mb-3">Gold Package</h4>
+                        <div class="price-tag mb-4">₹ 27,999</div>
+                        <ul class="package-features mb-4">
+                            <li><i class="fas fa-check text-success"></i> 5 Nights / 6 Days</li>
+                            <li><i class="fas fa-check text-success"></i> 3★ Hotel</li>
+                            <li><i class="fas fa-check text-success"></i> Private Cab</li>
+                            <li><i class="fas fa-check text-success"></i> Gondola Ride</li>
+                            <li><i class="fas fa-check text-success"></i> Daily Breakfast & Dinner</li>
+                        </ul>
+                        <button class="btn btn-warning w-100 mb-2 whatsapp-btn" data-package="Gold Package">
+                            <i class="fab fa-whatsapp"></i> WhatsApp Enquiry
+                        </button>
+                        <button class="btn btn-primary w-100 book-now-btn" data-package="Gold Package">Book
+                            Now</button>
+                    </div>
+                </div>
+
+                <!-- Platinum Package -->
+                <div class="col-lg-4">
+                    <div class="package-card h-100">
+                        <div class="package-badge bg-info">Platinum</div>
+                        <h4 class="mb-3">Platinum Package</h4>
+                        <div class="price-tag mb-4">₹ 49,999</div>
+                        <ul class="package-features mb-4">
+                            <li><i class="fas fa-check text-success"></i> 7 Nights / 8 Days</li>
+                            <li><i class="fas fa-check text-success"></i> 4★/5★ Hotel</li>
+                            <li><i class="fas fa-check text-success"></i> Private Luxury Cab</li>
+                            <li><i class="fas fa-check text-success"></i> Shikara & Snow Activities</li>
+                            <li><i class="fas fa-check text-success"></i> All Meals Included</li>
+                        </ul>
+                        <button class="btn btn-outline-info w-100 mb-2 whatsapp-btn" data-package="Platinum Package">
+                            <i class="fab fa-whatsapp"></i> WhatsApp Enquiry
+                        </button>
+                        <button class="btn btn-primary w-100 book-now-btn" data-package="Platinum Package">Book
+                            Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ WHY CHOOSE US ============ -->
+    <section id="why-us" class="py-5 bg-white">
+        <div class="container">
+            <h2 class="text-center mb-5 fw-bold section-title">Why Choose Us?</h2>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4">
+                    <div class="why-us-card text-center p-4">
+                        <i class="fas fa-users fa-3x text-primary mb-3"></i>
+                        <h5>Local Kashmir Experts</h5>
+                        <p>Years of experience and deep knowledge of Kashmir's hidden gems</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="why-us-card text-center p-4">
+                        <i class="fas fa-tag fa-3x text-success mb-3"></i>
+                        <h5>Affordable Pricing</h5>
+                        <p>Best rates without compromising on quality and comfort</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="why-us-card text-center p-4">
+                        <i class="fas fa-palette fa-3x text-warning mb-3"></i>
+                        <h5>Custom Packages</h5>
+                        <p>Tailored tours designed according to your preferences and budget</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="why-us-card text-center p-4">
+                        <i class="fas fa-phone fa-3x text-info mb-3"></i>
+                        <h5>24×7 Support</h5>
+                        <p>Round-the-clock customer support for your peace of mind</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="why-us-card text-center p-4">
+                        <i class="fas fa-shield-alt fa-3x text-danger mb-3"></i>
+                        <h5>Safe & Secure</h5>
+                        <p>All necessary safety measures and insurance coverage included</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="why-us-card text-center p-4">
+                        <i class="fas fa-star fa-3x text-secondary mb-3"></i>
+                        <h5>Best Reviews</h5>
+                        <p>Trusted by thousands of happy travelers across the globe</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ TESTIMONIALS ============ -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5 fw-bold section-title">Customer Reviews</h2>
+            <div class="row g-4">
+                <div class="col-lg-4">
+                    <div class="testimonial-card p-4">
+                        <div class="stars mb-3">
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                        </div>
+                        <p class="mb-4">"Absolutely fantastic experience! The team made our Kashmir trip unforgettable.
+                            Highly recommended!"</p>
+                        <h6 class="fw-bold">- Rajesh Kumar</h6>
+                        <small class="text-muted">Delhi</small>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="testimonial-card p-4">
+                        <div class="stars mb-3">
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                        </div>
+                        <p class="mb-4">"Best honeymoon package ever! The hospitality and arrangements were beyond
+                            expectations."</p>
+                        <h6 class="fw-bold">- Priya & Arjun</h6>
+                        <small class="text-muted">Mumbai</small>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="testimonial-card p-4">
+                        <div class="stars mb-3">
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                        </div>
+                        <p class="mb-4">"Perfect family vacation! Kids loved the activities and we loved the scenic
+                            beauty. Worth every penny!"</p>
+                        <h6 class="fw-bold">- Sharma Family</h6>
+                        <small class="text-muted">Bangalore</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ GALLERY ============ -->
+    <section id="gallery" class="py-5 bg-white">
+        <div class="container">
+            <h2 class="text-center mb-5 fw-bold section-title">Gallery</h2>
+            <div class="row g-3">
+                <div class="col-sm-6 col-lg-3">
+                    <div class="gallery-item">
+                        <img src="images/g1.jpg" alt="Kashmir Nature">
+                        <div class="overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3">
+                    <div class="gallery-item">
+                        <img src="images/g6.jpg" alt="Dal Lake">
+                        <div class="overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3">
+                    <div class="gallery-item">
+                        <img src="images/g3.jpg" alt="Snow">
+                        <div class="overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3">
+                    <div class="gallery-item">
+                        <img src="images/g8.jpg" alt="Mountains">
+                        <div class="overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3">
+                    <div class="gallery-item">
+                        <img src="images/g6.jpg" alt="Houseboat">
+                        <div class="overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3">
+                    <div class="gallery-item">
+                        <img src="images/g4.jpg" alt="Adventure">
+                        <div class="overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3">
+                    <div class="gallery-item">
+                        <img src="images/g5.jpg" alt="Valley">
+                        <div class="overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3">
+                    <div class="gallery-item">
+                        <img src="images/g7.jpg" alt="Sunset">
+                        <div class="overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ FAQ ============ -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5 fw-bold section-title">Frequently Asked Questions</h2>
+            <div class="row">
+                <div class="col-lg-8 offset-lg-2">
+                    <div class="accordion" id="faqAccordion">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#faq1">
+                                    What's the best time to visit Kashmir?
+                                </button>
+                            </h2>
+                            <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    The best time to visit Kashmir is April to June (Spring & Summer) and September to
+                                    October (Autumn). These months offer pleasant weather, clear skies, and all
+                                    attractions are accessible.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#faq2">
+                                    Are flights and transfers included?
+                                </button>
+                            </h2>
+                            <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Ground transportation within Kashmir is included. Flights are not included in the
+                                    basic packages but can be added separately. Contact us for complete details.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#faq3">
+                                    Can packages be customized?
+                                </button>
+                            </h2>
+                            <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Absolutely! All our packages can be customized based on your preferences, budget,
+                                    and travel dates. Contact our team via WhatsApp or the contact form.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#faq4">
+                                    What documents are required?
+                                </button>
+                            </h2>
+                            <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Valid ID proof is sufficient for Indian nationals. For international visitors, a
+                                    valid passport is required. No special permits needed for Kashmir.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#faq5">
+                                    Is travel insurance included?
+                                </button>
+                            </h2>
+                            <div id="faq5" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Basic coverage is included in all packages. For comprehensive travel insurance, we
+                                    can assist with purchasing additional policies.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ CONTACT & BOOKING ============ -->
+    <section id="contact" class="py-5 bg-white">
+        <div class="container">
+            <h2 class="text-center mb-5 fw-bold section-title">Book Your Journey</h2>
+            <div class="row g-5">
+                <div class="col-lg-6">
+                    <form id="bookingForm" class="booking-form">
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Full Name</label>
+                            <input type="text" class="form-control" id="name" name="name" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email" name="email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="phone" class="form-label">Phone Number</label>
+                            <input type="tel" class="form-control" id="phone" name="phone" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="package" class="form-label">Select Package</label>
+                            <select class="form-select" id="package" name="package" required>
+                                <option value="">-- Choose a Package --</option>
+                                <option value="Silver Package">Silver Package (₹15,999)</option>
+                                <option value="Gold Package">Gold Package (₹27,999)</option>
+                                <option value="Platinum Package">Platinum Package (₹49,999)</option>
+                            </select>
+                        </div>
+                        <div class="mb-3">
+                            <label for="travelers" class="form-label">Number of Travelers</label>
+                            <input type="number" class="form-control" id="travelers" name="travelers" min="1" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="dates" class="form-label">Preferred Travel Dates</label>
+                            <input type="date" class="form-control" id="dates" name="dates" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Special Requests</label>
+                            <textarea class="form-control" id="message" name="message" rows="4"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-lg w-100">Book Now</button>
+                    </form>
+                </div>
+                <div class="col-lg-6">
+                    <div class="contact-info">
+                        <h5 class="mb-4">Get in Touch</h5>
+                        <div class="contact-item mb-4">
+                            <i class="fas fa-phone fa-2x text-primary mb-3"></i>
+                            <h6>Phone</h6>
+                            <p>+91 70062 50086</p>
+
+                        </div>
+                        <div class="contact-item mb-4">
+                            <i class="fas fa-envelope fa-2x text-primary mb-3"></i>
+                            <h6>Email</h6>
+                            <p>steptowardsheaven71@gmail.com</p>
+                        </div>
+                        <div class="contact-item mb-4">
+                            <i class="fas fa-map-marker-alt fa-2x text-primary mb-3"></i>
+                            <h6>Address</h6>
+                            <p>SICOP BIJBIHARA, BIJBEHARA, ANANTNAG, JAMMU AND KASHMIR - 192124</p>
+                            <p>Office Hours: 9 AM - 9 PM (Daily)</p>
+                        </div>
+                        <div class="mt-5">
+                            <h6 class="mb-3">Follow Us</h6>
+                            <a href="https://www.instagram.com/step_towards_heaven_71?igsh=MWtvc3ppcTZyeXFwNw=="
+                                class="social-icon" target="_blank"><i class="fab fa-instagram"></i></a>
+                            <a href="https://www.facebook.com/share/1Aqiav7HcW/" class="social-icon" target="_blank"><i
+                                    class="fab fa-facebook"></i></a>
+                            <a href="https://wa.me/917006250086" class="social-icon whatsapp-icon" target="_blank"><i
+                                    class="fab fa-whatsapp"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ FOOTER ============ -->
+    <footer class="footer-modern text-white pt-5 pb-4">
+        <div class="container">
+            <div class="row g-4">
+                <!-- Brand Column -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="footer-brand mb-4">
+                        <img src="images/nlogo.png" alt="Logo" height="50" class="mb-3">
+                        <h4 class="fw-bold text-white">Step Towards Heaven</h4>
+                        <p class="text-white-50 mt-3">Experience the authentic beauty of Kashmir with our premium tour
+                            packages. Your journey to paradise begins here.</p>
+                        <div class="social-links mt-4">
+                            <!-- Removed socials as per user request, can be added back if needed -->
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Quick Links -->
+                <div class="col-lg-2 col-md-6">
+                    <h5 class="fw-bold mb-4 text-white">Quick Links</h5>
+                    <ul class="list-unstyled footer-links">
+                        <li><a href="#home"><i class="fas fa-chevron-right me-2 small"></i>Home</a></li>
+                        <li><a href="#packages"><i class="fas fa-chevron-right me-2 small"></i>Packages</a></li>
+                        <li><a href="#gallery"><i class="fas fa-chevron-right me-2 small"></i>Gallery</a></li>
+                        <li><a href="#contact"><i class="fas fa-chevron-right me-2 small"></i>Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact Info -->
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="fw-bold mb-4 text-white">Contact Us</h5>
+                    <div class="footer-contact">
+                        <div class="d-flex mb-3">
+                            <i class="fas fa-map-marker-alt text-primary mt-1 me-3"></i>
+                            <span class="text-white-50">SICOP BIJBIHARA, BIJBEHARA, ANANTNAG, JAMMU AND KASHMIR -
+                                192124</span>
+                        </div>
+                        <div class="d-flex mb-3">
+                            <i class="fas fa-phone-alt text-primary mt-1 me-3"></i>
+                            <div>
+                                <a href="tel:+917006250086" class="text-white-50 d-block">+91 70062 50086</a>
+                            </div>
+                        </div>
+                        <div class="d-flex">
+                            <i class="fas fa-envelope text-primary mt-1 me-3"></i>
+                            <a href="mailto:steptowardsheaven71@gmail.com"
+                                class="text-white-50">steptowardsheaven71@gmail.com</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Map -->
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="fw-bold mb-4 text-white">Find Us</h5>
+                    <div class="footer-map rounded-3 overflow-hidden shadow-sm">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d105912.8627848624!2d75.0567!3d33.7977!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38e2023024b33333%3A0x33333333333333!2sBijbehara%2C%20Anantnag%2C%20Jammu%20and%20Kashmir!5e0!3m2!1sen!2sin!4v1234567890"
+                            width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>
+            </div>
+
+            <hr class="my-4 border-secondary">
+
+            <div class="row align-items-center">
+                <div class="col-md-6 text-center text-md-start">
+                    <p class="mb-0 text-white-50 small">&copy; 2026 <strong>Step Towards Heaven</strong>. All Rights
+                        Reserved.</p>
+                </div>
+                <div class="col-md-6 text-center text-md-end mt-3 mt-md-0">
+                    <p class="mb-0 text-white-50 small">Made with <i class="fas fa-heart text-danger mx-1"></i> for
+                        Kashmir Travel</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating Action Buttons -->
+    <div class="floating-buttons">
+        <div class="floating-whatsapp">
+            <a href="https://wa.me/917006250086?text=Hi%20Step%20Towards%20Heaven!%20I%20want%20to%20book%20a%20Kashmir%20tour%20package."
+                target="_blank" title="Chat on WhatsApp">
+                <i class="fab fa-whatsapp"></i>
+            </a>
+        </div>
+        <div class="floating-call">
+            <a href="tel:+917006250086" title="Call Us Now">
+                <i class="fas fa-phone-alt"></i>
+            </a>
+        </div>
+    </div>
+
+    <!-- Scroll to Top Button -->
+    <button id="scrollTopBtn" title="Go to top"><i class="fas fa-arrow-up"></i></button>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+
+</html>
